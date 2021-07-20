@@ -8,7 +8,7 @@ spec:
     - host: guestbook-ui.test.com
       http:
         paths:
-        - path: /ui
+        - path: /uib
           backend:
             serviceName: guestbook-ui
             servicePort: 80
